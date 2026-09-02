@@ -18,7 +18,7 @@ temp.amb = 25; % Degrees C
 cap.p = cap.c*p.c;
 intres.p = intres.c*(s.c/p.c); %ohms
 vnom.p = vnom.c*s.c; %V
-energy.p = vnom.p*cap.p; %kWh
+energy.p = vnom.p*cap.p/1000; %kWh
 
 %Thermal Model
 Rth = .01 % (Degrees C*Seconds)/Joules, Thermal Resistance, Controls how easily the pack gets rid of heat.
