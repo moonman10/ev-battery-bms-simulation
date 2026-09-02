@@ -15,7 +15,7 @@ temp.amb = 25; % Degrees C
 
 %Calculations
 
-cap.p = cap.c*p.c;
+cap.p = cap.c*p.c; %Ah
 intres.p = intres.c*(s.c/p.c); %ohms
 vnom.p = vnom.c*s.c; %V
 energy.p = vnom.p*cap.p/1000; %kWh
